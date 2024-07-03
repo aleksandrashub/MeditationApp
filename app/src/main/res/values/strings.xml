@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcEmil">С возвращением, Эмиль!</string>
+    <string name="kakimty">Каким ты себя ощущаешь сегодня?</string>
+    <string name="calm">Спокойным</string>
+    <string name="relax">Расслабленным</string>
+    <string name="focus">Сосредоточенным</string>
+    <string name="worry">Взволнованным</string>
+    <string name="Emil">Эмиль</string>
+    <string name="plus">+</string>
+    <string name="time1">11:00</string>
+    <string name="time2">19:11</string>
+    <string name="time4">11:11</string>
+    <string name="time3">15:55</string>
+</resources>

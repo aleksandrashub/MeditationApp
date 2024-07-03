@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#253334"
+                android:src="@drawable/hamburger">
+
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/figmalogo">
+
+                </ImageView>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/profBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#253334"
+                android:src="@drawable/ellipse2"></ImageButton>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/a10"
+            android:text="@string/welcEmil"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="29dp"></TextView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/as8"
+            android:text="@string/kakimty"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="#253334"
+                    android:padding="13dp"
+                    android:src="@drawable/calmmood">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="@string/calm"
+                    android:textColor="@color/white"
+                    android:textSize="11dp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_marginTop="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="#253334"
+                    android:padding="13dp"
+                    android:src="@drawable/relaxmood"
+                    app:cornerRadius="12dp">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="20dp"
+                    android:text="@string/relax"
+                    android:textColor="@color/white"
+                    android:textSize="11dp">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="#253334"
+                    android:padding="13dp"
+                    android:src="@drawable/focusmood"
+                    app:cornerRadius="12dp">
+
+                </ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="20dp"
+                    android:text="@string/focus"
+                    android:textColor="@color/white"
+                    android:textSize="11dp">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="70dp"
+                    android:background="#253334"
+                    android:padding="13dp"
+                    android:src="@drawable/anxiousmood"
+                    app:cornerRadius="12dp">
+
+                </ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/worry"
+                    android:textColor="@color/white"
+                    android:textSize="11dp">
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/whiteborder"
+            android:layout_height="180dp">
+
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="110dp"
+                android:translationX="200dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/zagolovokbloka1"></ImageView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="230dp">
+                <TextView
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="27dp"
+                    android:fontFamily="@font/a5"
+                    android:text="Заголовок блока"
+                    android:layout_width="200dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/a13"
+                    android:text="Кратенькое описание блока с двумя строчками"
+                    android:textSize="16dp">
+                </TextView>
+                <Button
+                    app:cornerRadius="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:text="подробнее"
+                    android:textSize="12dp"
+                    android:backgroundTint="#253334"
+                    android:layout_width="130dp">
+                </Button>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/whiteborder"
+            android:layout_height="180dp">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="110dp"
+                android:translationX="200dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/zagbloka2">
+            </ImageView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="230dp">
+                <TextView
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="27dp"
+                    android:fontFamily="@font/a5"
+                    android:text="Заголовок блока"
+                    android:layout_width="200dp">
+                </TextView>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/a13"
+                    android:text="Кратенькое описание блока с двумя строчками"
+                    android:textSize="16dp">
+                </TextView>
+                <Button
+                    app:cornerRadius="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:text="подробнее"
+                    android:textSize="12dp"
+                    android:backgroundTint="#253334"
+                    android:layout_width="130dp">
+                </Button>
+            </LinearLayout>
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+
+                android:background="#253334"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hhome">
+
+            </ImageButton>
+            <ImageButton
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="#253334"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/nnav">
+            </ImageButton>
+            <ImageButton
+                android:background="#253334"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/pprofile">
+            </ImageButton>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

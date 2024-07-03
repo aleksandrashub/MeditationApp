@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#253334"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="45dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleX="1.2"
+                android:scaleY="1.3"
+                android:src="@drawable/figmalogo"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/a3"
+                android:text="Sign in"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="28dp"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:textColorHint="#808080"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Пароль"
+                android:textColorHint="#808080"></EditText>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#7c9a92"
+                android:padding="13dp"
+                android:text="Sign in"
+                android:textSize="20dp"
+                app:cornerRadius="12dp"></Button>
+        </LinearLayout>
+            <FrameLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="#253334"
+                android:fontFamily="@font/a1"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:text="Register"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </Button>
+
+
+
+        <Button
+            android:id="@+id/profileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#7c9a92"
+            android:padding="13dp"
+            android:text="Профиль"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:textSize="20dp"
+            app:cornerRadius="12dp">
+        </Button>
+</LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/flowers"
+                    android:translationY="-20dp"></ImageView>
+            </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
